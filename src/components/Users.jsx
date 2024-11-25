@@ -12,7 +12,7 @@ const Users = () => {
             .then(data => {
                 console.log(data);
                 if (data.deleteCount > 0) {
-                    alert('deleted successfully')
+                    alert('deleted successfully!')
                 }
         })
     }
